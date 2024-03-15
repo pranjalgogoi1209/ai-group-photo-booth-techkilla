@@ -26,7 +26,7 @@ const SwapFace = ({ temp, data, setIsLoader }) => {
     try {
       setIsLoader(true);
       const res = await axios.post(
-        "https://3d51-103-17-110-127.ngrok-free.app/send",
+        "https://aada-103-17-110-127.ngrok-free.app/send",
         {
           image: temp?.choice.split(",")[1],
           choice: temp?.image.split(",")[1],

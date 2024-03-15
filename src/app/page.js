@@ -7,6 +7,7 @@ import DemoDataMB from "@/data/demo/mobile";
 import { MdStart } from "react-icons/md";
 import { useRouter } from "next/navigation";
 import { useCookies } from "react-cookie";
+
 const Template = () => {
   const router = useRouter();
   const [cookies] = useCookies();
